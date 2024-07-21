@@ -2,14 +2,14 @@
   "setupTasks": [
     {
       "name":"Install Dependencies",
-      "command": "pip install -r requirements.txt"
+      "command": "npm install"
     }
   ],
 
 "tasks":{
   "start":{
     "name":"start",
-    "command": "uvicorn --host 0.0.0.0 --port 8080 main:app",
+    "command": "npm run build",
     "runAtStart":true
     }
   }
